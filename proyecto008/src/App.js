@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+<<<<<<< HEAD
 
 class App extends Component {
   constructor(props) {
@@ -57,6 +58,18 @@ class App extends Component {
     );
   }
    
+=======
+import Reloj from './Reloj'
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Reloj />
+      </div>
+    );
+  }
+>>>>>>> f2e36734ad59440d9b881d9759ebfe724353e3f2
 }
 
 export default App;
